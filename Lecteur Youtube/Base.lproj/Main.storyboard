@@ -73,11 +73,27 @@
                     <navigationItem key="navigationItem" id="4lo-uO-P6W"/>
                     <connections>
                         <outlet property="tableView" destination="lgo-Kv-9xR" id="GSj-sX-TMh"/>
+                        <segue destination="Nu6-5r-4bg" kind="show" identifier="VersVideo" id="b6O-S2-e7M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="117.39130434782609"/>
+        </scene>
+        <!--Video Controller-->
+        <scene sceneID="VyU-VI-uro">
+            <objects>
+                <viewController id="Nu6-5r-4bg" customClass="VideoController" customModule="Lecteur_Youtube" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5fy-0T-lJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="V17-PV-P5h"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mf1-NN-KYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="117"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Kdy-M7-Hsh">
