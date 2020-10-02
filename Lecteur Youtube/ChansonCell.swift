@@ -2,8 +2,8 @@
 //  ChansonCell.swift
 //  Lecteur Youtube
 //
-//  Created by Matthieu PASSEREL on 22/02/2018.
-//  Copyright © 2018 Matthieu PASSEREL. All rights reserved.
+//  Created by Rodolphe DUPUY on 22/02/2018.
+//  Copyright © 2018 Rodolphe DUPUY All rights reserved.
 //
 
 import UIKit
@@ -45,22 +45,7 @@ class ChansonCell: UITableViewCell {
                 }
             })
             task.resume()
-            
         }
     }
     
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
